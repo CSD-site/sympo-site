@@ -1,3 +1,10 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+.bg-image {
+
+    background-image: url("https: //i.postimg.cc/Zn2VdBb5/BG-copy.png");
+
+}
