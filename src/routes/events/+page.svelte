@@ -24,7 +24,7 @@
 				/>
 				<p class="h my-9 text-5xl">Will you go Red ?</p>
 				<p class="mb-9">where does your alligence lie?</p>
-				<a href="/" class="btn btn-error btn-lg">Join Now</a>
+				<a href="https://forms.gle/fWFxy2mVpdVH7BG87" class="btn btn-error btn-lg">Join Now</a>
 			</div>
 			<div class="candy">
 				<img
@@ -34,7 +34,7 @@
 				/>
 				<p class="h my-9 text-5xl">Will you go blue ?</p>
 				<p class="mb-9">pick your side.Game will start soon</p>
-				<a href="/" class="btn btn-info btn-lg">Join Now</a>
+				<a href="https://forms.gle/fWFxy2mVpdVH7BG87" class="btn btn-info btn-lg">Join Now</a>
 			</div>
 		</div>
 	</div>

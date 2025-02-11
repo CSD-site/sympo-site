@@ -177,7 +177,8 @@ export const SpecialEventData: EventData[] = [
         guides: [
             'Content Format: Posts, reels, or stories should be well-designed and engaging.',
             'Audience Reach: Participants should aim to maximize likes, shares, and engagement.',
-            'Originality: Content must be unique and created specifically for this event.'
+            'Originality: Content must be unique and created specifically for this event.',
+            'Tags: Use appropriate hashtags to promote the event #sethu_csd #pixelize #rapidreach.'
         ],
 
         criteria: [

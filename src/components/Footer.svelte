@@ -5,11 +5,11 @@
 			class="mx-auto grid max-w-xs grid-cols-2 gap-4 py-14 sm:max-w-2xl sm:grid-cols-4 md:max-w-3xl lg:max-w-full lg:grid-cols-6 lg:gap-8"
 		>
 			<div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
-				<a href="#" class="flex justify-center lg:justify-start">
+				<a href="/" class="flex justify-center lg:justify-start">
 					<img src="" alt="" />Pixelize
 				</a>
 				<p class="py-8 text-center text-sm text-gray-500 lg:max-w-xs lg:text-left">
-					Trusted in more than 100 countries & 5 million customers. Follow us on social media.
+					A fun event for all the techies and engineers. Follow us on social media.
 				</p>
 				<div class="mt-4 flex justify-center space-x-4 sm:mt-0 lg:justify-start">
 					<!-- svelte-ignore a11y_consider_explicit_label -->
@@ -36,7 +36,7 @@
 					</a>
 					<!-- svelte-ignore a11y_consider_explicit_label -->
 					<a
-						href="#"
+						href="https://www.instagram.com/pixelize25?igsh=cm95c3hteTNmdDJ5"
 						class="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-600"
 					>
 						<svg
@@ -51,26 +51,10 @@
 							/>
 						</svg>
 					</a>
+
 					<!-- svelte-ignore a11y_consider_explicit_label -->
 					<a
-						href="javascript:;"
-						class="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-600"
-					>
-						<svg
-							class="h-[1rem] w-[1rem] text-white"
-							viewBox="0 0 13 12"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M2.8794 11.5527V3.86835H0.318893V11.5527H2.87967H2.8794ZM1.59968 2.81936C2.4924 2.81936 3.04817 2.2293 3.04817 1.49188C3.03146 0.737661 2.4924 0.164062 1.61666 0.164062C0.74032 0.164062 0.167969 0.737661 0.167969 1.49181C0.167969 2.22923 0.723543 2.8193 1.5829 2.8193H1.59948L1.59968 2.81936ZM4.29668 11.5527H6.85698V7.26187C6.85698 7.03251 6.87369 6.80255 6.94134 6.63873C7.12635 6.17968 7.54764 5.70449 8.25514 5.70449C9.18141 5.70449 9.55217 6.4091 9.55217 7.44222V11.5527H12.1124V7.14672C12.1124 4.78652 10.8494 3.68819 9.16483 3.68819C7.78372 3.68819 7.17715 4.45822 6.84014 4.98267H6.85718V3.86862H4.29681C4.33023 4.5895 4.29661 11.553 4.29661 11.553L4.29668 11.5527Z"
-								fill="currentColor"
-							/>
-						</svg>
-					</a>
-					<!-- svelte-ignore a11y_consider_explicit_label -->
-					<a
-						href="javascript:;"
+						href="/"
 						class="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-600"
 					>
 						<svg
@@ -102,7 +86,9 @@
 						>
 					</li>
 					<li class="mb-6">
-						<a href="#" class="hover:text-white-900 text-gray-600">Register</a>
+						<a href="https://forms.gle/fWFxy2mVpdVH7BG87" class="hover:text-white-900 text-gray-600"
+							>Register</a
+						>
 					</li>
 				</ul>
 			</div>
@@ -111,13 +97,19 @@
 				<h4 class="text-white-900 mb-7 text-lg font-medium">Technical</h4>
 				<ul class="text-sm transition-all duration-500">
 					<li class="mb-6">
-						<a href="javascript:;" class="hover:text-white-900 text-gray-600">Pixel Perfect</a>
+						<a href="/events/technical/pixelperfect" class="hover:text-white-900 text-gray-600"
+							>Pixel Perfect</a
+						>
 					</li>
 					<li class="mb-6">
-						<a href="javascript:;" class=" hover:text-white-900 text-gray-600">Jailbreak War</a>
+						<a href="/events/technical/jailbreakwar" class=" hover:text-white-900 text-gray-600"
+							>Jailbreak War</a
+						>
 					</li>
 					<li class="mb-6">
-						<a href="javascript:;" class=" hover:text-white-900 text-gray-600">Debug or Die</a>
+						<a href="/events/technical/debugordie" class=" hover:text-white-900 text-gray-600"
+							>Debug or Die</a
+						>
 					</li>
 				</ul>
 			</div>
@@ -126,16 +118,24 @@
 				<h4 class="text-white-900 mb-7 text-lg font-medium">Non Technical</h4>
 				<ul class="text-sm transition-all duration-500">
 					<li class="mb-6">
-						<a href="javascript:;" class="hover:text-white-900 text-gray-600">Dalgona Risk</a>
+						<a href="/events/nonTechnical/dalgonarisk" class="hover:text-white-900 text-gray-600"
+							>Dalgona Risk</a
+						>
 					</li>
 					<li class="mb-6">
-						<a href="javascript:;" class=" hover:text-white-900 text-gray-600">Act it out</a>
+						<a href="/events/nonTechnical/actitout" class=" hover:text-white-900 text-gray-600"
+							>Act it out</a
+						>
 					</li>
 					<li class="mb-6">
-						<a href="javascript:;" class=" hover:text-white-900 text-gray-600">IPL Auction</a>
+						<a href="/events/nonTechnical/iplauction" class=" hover:text-white-900 text-gray-600"
+							>IPL Auction</a
+						>
 					</li>
 					<li>
-						<a href="javascript:;" class=" hover:text-white-900 text-gray-600">Ddakji Fusion</a>
+						<a href="/events/nonTechnical/ddakjifusion" class=" hover:text-white-900 text-gray-600"
+							>Ddakji Fusion</a
+						>
 					</li>
 				</ul>
 			</div>
@@ -144,10 +144,14 @@
 				<h4 class="text-white-900 mb-7 text-lg font-medium">Special Events</h4>
 				<ul class="text-sm transition-all duration-500">
 					<li class="mb-6">
-						<a href="javascript:;" class=" hover:text-white-900 text-gray-600">Rapid Reach</a>
+						<a href="/events/special/rapidreach" class=" hover:text-white-900 text-gray-600"
+							>Rapid Reach</a
+						>
 					</li>
 					<li class="mb-6">
-						<a href="javascript:;" class=" hover:text-white-900 text-gray-600">QR Treasure hunt</a>
+						<a href="/events/special/qrtreasurehunt" class=" hover:text-white-900 text-gray-600"
+							>QR Treasure hunt</a
+						>
 					</li>
 				</ul>
 			</div>
@@ -156,12 +160,14 @@
 		<div class="border-t border-gray-200 py-7">
 			<div class="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
 				<span class="text-sm text-gray-500"
-					>©<a href="https://pagedone.io/">pagedone</a>2024, All rights reserved.</span
+					>©<a href="https://sethu.ac.in/dept/CSD/">Pixelize</a>2025, All rights reserved.</span
 				>
 				<ul class="mt-4 flex items-center gap-9 lg:mt-0">
-					<li><a href="javascript:;" class="text-sm text-gray-500">Terms</a></li>
-					<li><a href="javascript:;" class="text-sm text-gray-500">Privacy</a></li>
-					<li><a href="javascript:;" class="text-sm text-gray-500">Cookies</a></li>
+					<li>
+						<a href="https://github.com/NitheeshKani/" class="text-sm text-gray-500"
+							>Nitheesh kani</a
+						>
+					</li>
 				</ul>
 			</div>
 		</div>
