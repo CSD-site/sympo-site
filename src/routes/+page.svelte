@@ -4,12 +4,6 @@
 	import { MoveRight } from 'lucide-svelte'
 	import CountdownTImer from '../components/CountdownTImer.svelte'
 	import { blur, crossfade, fade, fly } from 'svelte/transition'
-	import { onMount } from 'svelte'
-
-	let animate = false
-	onMount(() => {
-		animate = true
-	})
 </script>
 
 <Animate>
