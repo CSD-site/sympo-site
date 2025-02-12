@@ -8,7 +8,7 @@
 	// $inspect(page.params)
 </script>
 
-<img src={event?.img} alt={event?.heading} class="w-screen mt-25" />
+<img src={event?.img} alt={event?.heading} class="mt-32 w-screen" />
 <section>
 	<Breaker text={event?.heading} />
 	<article class="bg-black/35 px-20 py-10">

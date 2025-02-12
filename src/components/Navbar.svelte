@@ -36,7 +36,7 @@
 	</div>
 	<div class="navbar-center">
 		<a href="/" class="btn btn-ghost text-xl">
-			<img src="https://i.postimg.cc/V6Hd0HXy/pixelize-logo.png" alt="pixelize logo" class="h-10" />
+			<img src="https://i.postimg.cc/V6Hd0HXy/pixelize-logo.png" alt="pixelize logo" class="w-[20vw]" />
 		</a>
 	</div>
 	<div class="navbar-end">
