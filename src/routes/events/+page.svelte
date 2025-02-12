@@ -40,7 +40,7 @@
 	</div>
 
 	<Breaker text="Technical Events" />
-	<div class="flex flex-col items-center justify-between gap-5 px-20">
+	<div class="flex flex-col items-center justify-between gap-5 px-5 md:px-20">
 		{#each TechnicalEventData as TechnicalEvent, i}
 			<Card
 				x={i % 2 === 0 ? -200 : 200}
@@ -54,7 +54,7 @@
 	</div>
 
 	<Breaker text="Non Technical Events" />
-	<div class="flex flex-col items-center justify-between gap-5 px-20">
+	<div class="flex flex-col items-center justify-between gap-5 px-5 md:px-20">
 		{#each NonTechnicalEventData as event, i}
 			<Card
 				x={i % 2 === 0 ? -200 : 200}
@@ -68,7 +68,7 @@
 	</div>
 
 	<Breaker text="Special Events" />
-	<div class="flex flex-col items-center justify-between gap-5 px-20">
+	<div class="flex flex-col items-center justify-between gap-5 px-5 md:px-20">
 		{#each SpecialEventData as event, i}
 			<Card
 				x={i % 2 === 0 ? -200 : 200}
