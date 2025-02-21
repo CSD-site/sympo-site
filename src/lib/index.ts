@@ -91,11 +91,13 @@ export const TechnicalEventData: EventData[] = [
         overView: "The Debugging Challenge is an intense coding competition where participants must fix errors in code within a time limit. As they progress, the levels become increasingly tricky, testing their debugging skills, logical thinking, and programming efficiency. This is the ultimate challenge for coders who love solving real-world issues!",
 
         howItWorks: [
+            'Team Size: 2 participants per team.',
             'Participants will receive code snippets with bugs that they need to fix.',
             'Each corrected code unlocks the next level, increasing in complexity.',
             'Participants must solve as many levels as possible within the time limit.',
             'The fastest and most accurate debuggers will win!',
-            'Winners will receive recognition and exciting prizes!'
+            'Winners will receive recognition and exciting prizes!',
+            'Language will be a surprise.'
         ],
 
         guides: [
@@ -158,39 +160,42 @@ export const SpecialEventData: EventData[] = [
 
         venue: 'CSD-lab'
     }, {
-        heading: 'Rapid Reach',
+        heading: 'Free Fire',
 
-        img: 'https://i.postimg.cc/VL3Rk88P/rapid-reach.png',
+        img: 'https://i.postimg.cc/fRCYQd7v/free-fire.png',
 
-        subHeading: 'Boost Your Creativity and Expand Your Reach!',
+        subHeading: 'Where Strategy and Skill Collide! ',
 
-        overView: "The Social Media Promotion Event is an exciting opportunity for participants to showcase their creativity by creating engaging posts, reels, or stories to promote our event. The goal is to reach a wider audience and generate buzz! The most impactful and viral content creators will be rewarded with exciting prizes!",
+        overView: "The Free Fire Event is the ultimate battleground where players must showcase their shooting skills, strategic thinking, and teamwork. Fight your way to victory in this intense survival showdown! Follow the rules, outplay your opponents, and prove yourself as the best survivor!",
 
         howItWorks: [
-            'Participants will create social media content (posts, reels, or stories) to promote the event.',
-            'Content should be engaging, creative, and aligned with the event theme.',
-            'Participants must share their content across various platforms to maximize reach.',
-            'Submissions will be evaluated based on engagement, creativity, and impact.',
-            'Top content creators will receive recognition and exciting rewards!'
+            'Players will form teams of four and enter the battleground for an intense Free Fire match.',
+            'Teams must strategize and use limited resources to outlast opponents.',
+            'The last team standing or the one with the highest points wins.',
+            'Fair play is enforced, and any rule violation will lead to disqualification.'
         ],
 
         guides: [
-            'Content Format: Posts, reels, or stories should be well-designed and engaging.',
-            'Audience Reach: Participants should aim to maximize likes, shares, and engagement.',
-            'Originality: Content must be unique and created specifically for this event.',
-            'Tags: Use appropriate hashtags to promote the event #sethu_csd #pixelize #rapidreach.'
+            'No hackers allowed.',
+            'No emotes during matches.',
+            'No breaking Gloo Walls.',
+            'No camping on rooftops.',
+            'No gun skins allowed.',
+            'No grenades permitted.',
+            'Only one PC player per team.',
+            'Limited gun selection is enforced.'
         ],
 
         criteria: [
-            'Creativity - How unique and engaging is the content?',
-            'Engagement - How many likes, shares, and interactions does it receive?',
-            'Impact - How well does the content promote the event?',
-            'Presentation - Is the content visually appealing and well-structured?'
+            'Survival - How long does the team last in the match?',
+            'Kills - Number of eliminations achieved.',
+            'Strategy - How effectively does the team play together?',
+            'Rule Adherence - Did the team follow all regulations?'
         ],
 
         prize: [
-            'Winner: Certification and medals',
-            'Runner-up: Certification and medals',
+            'Winner: Certification',
+            'Runner-up: Certification',
             'Participation: Certification.'
         ],
 
@@ -246,7 +251,7 @@ export const NonTechnicalEventData: EventData[] = [
         overView: "The Mono Act Challenge is an exciting platform for performers to express emotions, stories, and characters through solo performances. Using only gestures, expressions, and voice, participants must captivate the audience and compete for the title of the best solo act! Are you ready to take the stage?",
 
         howItWorks: [
-            'Participants will perform a solo act that conveys a story or emotion.',
+            'Participants will perform a duo act that conveys a story or emotion.',
             'No props or additional actors are allowed—only expressions, voice, and gestures.',
             'Each act must be within the given time limit.',
             'Judges will evaluate based on emotional impact, clarity, and delivery.',
@@ -283,6 +288,7 @@ export const NonTechnicalEventData: EventData[] = [
         overView: "The IPL Auction Challenge is a thrilling event where participants step into the shoes of team owners! With a fixed budget, they must strategically bid for top players, build the ultimate squad, and outsmart their opponents. Do you have what it takes to create the best team and dominate the auction?",
 
         howItWorks: [
+            'Team of 4 players will be participating.',
             'Participants will receive a virtual budget to bid for players.',
             'Players will be auctioned one by one, and participants must bid wisely.',
             'Each team must balance their squad within the given budget constraints.',
@@ -365,7 +371,7 @@ export const eventPathMap = new Map([
     }))],
     ['special', new Map(Object.entries({
         'qrtreasurehunt': SpecialEventData[0],
-        'rapidreach': SpecialEventData[1]
+        'freefire': SpecialEventData[1]
     }))]
 ])
 
